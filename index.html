@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Form builder</title>
+</head>
+
+<body>
+    <h1>Form builder</h1>
+
+    <form id="menuForm" class="menuForm">
+        <div>
+            <input type="text" id="newFieldTextName" placeholder="New text field name">
+            <button type="button" id="addTextField">Add a text field</button>
+        </div>
+        <div>
+            <input type="text" id="newSelectTextName" placeholder="New select field name">
+            <button type="button" id="addSelectField">Add a select field</button>
+        </div>
+        <div>
+            <button class="removeButton" type="button" id="removeLastField">Remove the last field</button>
+        </div>
+    </form>
+
+    <h2>Dynamic Form</h2>
+    <form id="customForm">
+
+        <button type="submit">Save</button>
+
+    </form>
+
+
+    <h2>Data Table</h2>
+    <table id="dataTable">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+</body>
+
+</html>
